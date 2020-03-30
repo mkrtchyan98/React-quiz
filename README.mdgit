@@ -1,0 +1,1 @@
+"# React-quiz"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/mkrtchyan98/React-quiz.gitgit push -u origin master                

@@ -16,7 +16,6 @@ const quizzes = [
 
 export default class App extends Component {
 
-
   fetchCategory(categoryId) {
       const {  markCategorySelected } = this.props;
             this.props.getAPIQuestions(categoryId)
@@ -77,7 +76,7 @@ export default class App extends Component {
   alignItems="center"
 
         >
-                       <Grid item xs={12} md={12}>
+                       <Grid item xs={12} md={12} className="quizzes">
 
         {!categorySelected &&
           quizzes.map((item, i) => {

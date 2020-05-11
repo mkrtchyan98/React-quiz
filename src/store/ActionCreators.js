@@ -20,10 +20,9 @@ export const incrementRightAnswers = () => {
   };
 };
 
-export const updateCurrentQuestion = currentQuestion => {
+export const updateCurrentQuestion = () => {
   return {
     type: UPDATE_CURRENT_QUESTION,
-    currentQuestion
   };
 };
 

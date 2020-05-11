@@ -14,7 +14,7 @@ export const initialState = {
   categorySelected: false
 };
 
-export const updateState = (state = initialState, action) => {
+export default function reducer  (state = initialState, action) {
   switch (action.type) {
     case SET_QUIZ_QUESTIONS:
       return {
